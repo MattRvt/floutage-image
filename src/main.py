@@ -9,7 +9,7 @@ from definitionIntensite.Intensite import Partie
 
 if __name__ == '__main__':
     print("debut du programme")
-    im = imageio.imread('chargementImage/arbreMaison.png', format='png')
+    im = imageio.imread('chargementImage/tree.jpg', format='jpg')
     info = im.shape
     h = info[0]
     w = info[1]

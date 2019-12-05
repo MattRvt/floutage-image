@@ -22,7 +22,7 @@ class Partie(Process):
             for x in range(self.w):
 
                 # pour chaque pixel
-                rayonVoisinageStatic = 5
+                rayonVoisinageStatic = 10
                 sommeR = 0
                 sommeG = 0
                 sommeB = 0
